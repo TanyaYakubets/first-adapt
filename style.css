@@ -29,6 +29,28 @@ body{
         margin-right: 40px;
     }
 }
+@media(max-width:391px){
+    .header-logo{
+        margin-right: 5px;
+    }
+    .nav-links{
+        display: flex;
+        flex-wrap: wrap;
+        line-height: 24px;
+        font-size: 10px;
+    }
+}
+@media(max-width:475px){
+    .header-logo{
+        margin-right: 5px;
+    }
+    .nav-links{
+        display: flex;
+        flex-wrap: wrap;
+        line-height: 24px;
+        font-size: 10px;
+    }
+}
 .container{
     max-width: 1076px;
     margin: 0px auto;
